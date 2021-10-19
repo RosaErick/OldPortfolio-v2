@@ -1,161 +1,144 @@
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-font-size: 1.2rem;
-scroll-behavior: smooth;
+  font-size: 1.2rem;
+  scroll-behavior: smooth;
 
-color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 0%, 0.8);
 }
 
 body {
-    font-family: "Maven Pro", sans-serif;
-    padding-top: 40px;
+  font-family: "Maven Pro", sans-serif;
+  padding-top: 40px;
 }
 
-
-
 #navbar {
-display: flex;
-justify-content:center;
-width: 100%;
-box-shadow: 0 2px 0 rgba (0, 0, 0, 0.4);
-z-index: 1;
-position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0 2px 0 rgba (0, 0, 0, 0.4);
+  z-index: 1;
+  position: fixed;
 }
 
 a {
-text-decoration: none;
-color: hsla(0, 0%, 0%, 0.8);
+  text-decoration: none;
+  color: hsla(0, 0%, 0%, 0.8);
 }
 
-
-
 .nav-link {
-display: inline;
-margin-right: 2rem;
-font-size: 14px;
-letter-spacing: 1px;
-font-weight: 550;
-text-transform: uppercase;
-color: rgb(49, 48, 47); 
+  display: inline;
+  margin-right: 2rem;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 550;
+  text-transform: uppercase;
+  color: rgb(49, 48, 47);
 }
 
 .nav-link a:hover {
-background: #000;
-color: #fff;
-padding: 0 2px 10px 2px;
-margin: 5px;
-
-
+  background: #000;
+  color: #fff;
+  padding: 0 2px 10px 2px;
+  margin: 5px;
 }
 
 nav {
-list-style: none;
+  list-style: none;
 }
 
-
 .nav-img {
-width: 25px;
-align-self: center;
-margin-right: 20px;
-
+  width: 25px;
+  align-self: center;
+  margin-right: 20px;
 }
 
 .name {
-margin-right: 100px;
-font-size:14px;
-align-self:center;
+  margin-right: 100px;
+  font-size: 14px;
+  align-self: center;
 }
 
 .welcome-section {
-  display:flex;
+  display: flex;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-left: 100px;
-  height:100vh;
+  height: 100vh;
   margin-top: 130px;
+}
 
-  
-
-
-
+.about p {
+  width: 300px;
 }
 
 .img-fluid {
-    
-display: block;
-width:40%;
-height:400px;
-
-
-
+  display: block;
+  width: 40%;
+  height: 400px;
 }
 h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 3em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    z-index: 1;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 3em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  z-index: 1;
 }
 
 .projects {
-display: flex;
-justify-content:center;
-
+  display: flex;
+  justify-content: center;
 }
 
-.projects h2{
-text-align: center;
+.projects h2 {
+  text-align: center;
 }
 
 .row {
-display: flex!important;
-margin-top: 200px;
-
+  display: flex !important;
+  margin-top: 100px;
 }
-.box-project{
-margin:10px auto;
-width: 35% !important;
-    padding: 5px 15px;
-    border: 25px transparent #Eeee;
-    border-radius: 4px;
-    box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%),
-    0 2px 4px 0 rgb(14 30 37 / 30%);
-  transition: box-shadow .3s ease-out;
-    
+.box-project {
+  margin: 0 auto;
+  width: 35% !important;
+  padding: 5px 15px;
+  border: 25px transparent #eeee;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%), 0 2px 4px 0 rgb(14 30 37 / 30%);
+  transition: box-shadow 0.3s ease-out;
+  cursor: pointer;
 }
-  
 
 .connect {
-display:flex;
-justify-content:center;
-flex-direction: column;
-align-items: center;
-margin-top:100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
 .connect h3 {
-font-size:20px;
+  font-size: 20px;
 }
 
 .contact li {
-display:inline-flex;
-margin: 20px 5px 5px 5px;
-
-
+  display: inline-flex;
+  margin: 50px 50px 20px 0px;
 }
 
-
 .contact li a {
+  font-size: 50px;
+  color: #000;
+}
 
-font-size:50px;
-color:#000;
+footer {
+  text-align: center;
+  margin-top: 50px;
 }
