@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
 
+}
 html {
   font-size: 1.2rem;
   scroll-behavior: smooth;
@@ -70,18 +70,14 @@ nav {
   align-items: flex-start;
   margin-left: 100px;
   height: 100vh;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .about p {
   width: 300px;
 }
 
-.img-fluid {
-  display: block;
-  width: 40%;
-  height: 400px;
-}
+
 h1 {
   display: block;
   font-size: 2em;
@@ -95,26 +91,36 @@ h1 {
 
 .projects {
   display: flex;
-  justify-content: center;
-}
+
+flex-direction: column;
+align-items:center;
+
+}  
 
 .projects h2 {
   text-align: center;
+
 }
 
+
 .row {
-  display: flex !important;
-  margin-top: 100px;
+margin-top:50px;
+
+
 }
+
+
+
 .box-project {
   margin: 0 auto;
-  width: 35% !important;
+  max-width:500px;
   padding: 5px 15px;
   border: 25px transparent #eeee;
   border-radius: 4px;
   box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%), 0 2px 4px 0 rgb(14 30 37 / 30%);
   transition: box-shadow 0.3s ease-out;
   cursor: pointer;
+  display: block;
 }
 
 .connect {
@@ -141,4 +147,96 @@ h1 {
 footer {
   text-align: center;
   margin-top: 50px;
+}
+
+
+
+@media only screen and (max-width:1400px) {
+
+  .projects{
+ margin-top: 300px;
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width:400px) {
+
+
+  #navbar {
+ justify-content: space-around;
+ max-width: 300px;
+align-items: center;
+
+
+  }
+  .name {
+margin-right: 50px;
+
+
+  }
+.nav-link {
+
+display:inline-flex;
+ margin-right: 0;
+  align-items: center;
+  font-size: 12px;
+  margin-left: 20px;
+  padding:0;
+  
+}
+
+.nav-img {
+margin-left: 20px;
+margin-right: 5px;
+
+
+}
+
+.welcome-section {
+margin-left: 0;
+
+text-align: left;
+height:50%;
+justify-content: center;
+align-items: center;
+
+}
+
+
+svg {
+display: none;
+
+}
+
+.projects h2 {
+font-size: 20px;
+ width: 50%;
+margin-right: 50px;
+}
+
+.contact { 
+padding: 20px 0;
+margin-right: 20px;
+}
+
+.contact h3 {
+width:50%;
+
+}
+.contact li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+.contact li a {
+  font-size: 20px;
+  color: #000;
+  
+}
+
 }
