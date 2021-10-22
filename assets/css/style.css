@@ -99,6 +99,11 @@ margin:0 auto;
 width:30%;
 
 }
+.projects a {
+color: rgb(209, 206, 15);
+
+}
+
 .row {
   margin-top: 50px;
 }
