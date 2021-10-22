@@ -94,14 +94,12 @@ h1 {
 }
 
 .projects h2 {
-text-align:center;
-margin:0 auto;
-width:30%;
-
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
 }
 .projects a {
-color: rgb(209, 206, 15);
-
+  color: rgb(209, 206, 15);
 }
 
 .row {
@@ -109,14 +107,12 @@ color: rgb(209, 206, 15);
 }
 
 .item {
-
-width:45%;
-margin: 20px auto;
-
+  width: 45%;
+  margin: 20px auto;
 }
 
 .item img {
-border: 25px transparent #eeee;
+  border: 25px transparent #eeee;
   border-radius: 4px;
   box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%), 0 2px 4px 0 rgb(14 30 37 / 30%);
   transition: box-shadow 0.3s ease-out;
@@ -159,17 +155,14 @@ footer {
 @media only screen and (max-width: 400px) {
   #navbar {
     justify-content: center;
- max-width: 360px;
- flex-direction: column;
- align-items: center;
- position: relative;
- 
+    max-width: 360px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
   }
   .name {
-    margin-right:5px;
+    margin-right: 5px;
     margin-left: 10px;
-    
-    
   }
 
   .nav-link {
@@ -181,16 +174,13 @@ footer {
     text-align: center;
   }
   .nav-link:nth-child(5) {
-    display:none;
-
+    display: none;
   }
 
   .nav-img {
     margin: 0 auto;
     text-align: center;
   }
-
-
 
   .welcome-section {
     margin-left: 0;
@@ -201,7 +191,7 @@ footer {
     align-items: center;
   }
 
-  svg {
+  #img-header {
     display: none;
   }
 
@@ -210,9 +200,9 @@ footer {
     width: 150px;
     text-align: center;
   }
- 
+
   .item {
-width: 60%;
+    width: 60%;
   }
   .contact {
     padding: 20px 0;
